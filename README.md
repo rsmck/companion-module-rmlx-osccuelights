@@ -16,3 +16,7 @@ Companion Module for aD Cue Light and OSC Cue Light iOS App
 ## OSC Compatibility
 
 This is designed to work with my iOS OSC Cue Light app, and the aD hardware Cue Light system that I was involved in designing but it uses the Open OSC protocol so it's trivial to make other hardware that uses the same commands.
+
+------
+
+_With many thanks to Martin McLachlan, Joel Wetzell, and those who've helped test this!_
