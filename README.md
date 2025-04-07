@@ -2,6 +2,8 @@
 
 Companion Module for aD Cue Light and OSC Cue Light iOS App
 
+<img width="368" alt="Companion Cue Lights" src="https://github.com/user-attachments/assets/26df4f05-d9fa-43fa-88c4-ddc44d79dce1" />
+
 ## Functions
 
 - Toggle Cue Light Selection
