@@ -108,7 +108,7 @@ class OSCInstance extends InstanceBase {
 			{
 				type: 'textinput',
 				id: 'host',
-				label: 'Target IP(s)',
+				label: 'Target IP(s) or Multicast Address',
 				width: 16,
 				regex:  /^(\s*(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}\s*)(,\s*(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}\s*)*$/,
 				required: true
