@@ -5,16 +5,18 @@
 - Target IP(s)
    -  One or more IP addresses (separated by commas)
    -  You can use Broadcast IP address here, or a comma-separated list of all cue light stations.
-   -  You cannot currently use Multicast IPs
+   -  You can also enter a Multicast Group address here if supported by your network.
 - Target Port
-   -  Listening port on the Cue Light Station
+   -  Listening port on the Cue Light Station or Multicast Group
 - Listen For Feedback
    -  Required to use confirmed display and remote Ack
 - Feedback Port
    -  Recommended to be set the same as Target Port
+   -  If using Multicast, set the PORT in the OSC Cue Light App to this port
 - Remember Last Station IP
-   -  Improve delivery performance when using Broadcast by sending messages directly to the IP the cue light station replied from previously
-   
+   -  Improve delivery performance when using Broadcast by sending messages 
+      directly to the IP the cue light station replied from previously
+   -  Has no effect when using Multicast or Dedicated IPs  
    
 **Available actions for OSC Cue Lights:**
 
